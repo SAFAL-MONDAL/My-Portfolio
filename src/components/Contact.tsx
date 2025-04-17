@@ -120,10 +120,14 @@ const Contact = () => {
   );
 };
 
-// Styled Components
+// Styled Components with mobile responsiveness updates
 const ContactSection = styled.section`
   padding: 100px 0;
   background: ${({ theme }) => theme.body};
+
+  @media (max-width: 767px) {
+    padding: 60px 0;
+  }
 `;
 
 const ContactCard = styled.div`
@@ -131,6 +135,10 @@ const ContactCard = styled.div`
   border-radius: 20px;
   padding: 60px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 767px) {
+    padding: 30px;
+  }
 `;
 
 const CardSubtitle = styled.p`
@@ -145,6 +153,11 @@ const CardTitle = styled.h2`
   font-size: 2.5rem;
   color: ${({ theme }) => theme.text};
   margin-bottom: 50px;
+
+  @media (max-width: 767px) {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
 `;
 
 const ContactWrapper = styled.div`
@@ -154,6 +167,10 @@ const ContactWrapper = styled.div`
   
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 767px) {
+    gap: 30px;
   }
 `;
 
@@ -175,6 +192,10 @@ const ContactInput = styled.input`
     color: ${({ theme }) => theme.text};
     opacity: 0.7;
   }
+
+  @media (max-width: 767px) {
+    padding: 12px 15px;
+  }
 `;
 
 const ContactTextArea = styled.textarea`
@@ -189,6 +210,10 @@ const ContactTextArea = styled.textarea`
   &::placeholder {
     color: ${({ theme }) => theme.text};
     opacity: 0.7;
+  }
+
+  @media (max-width: 767px) {
+    padding: 12px 15px;
   }
 `;
 
@@ -206,6 +231,10 @@ const SubmitButton = styled.button`
   &:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 767px) {
+    padding: 12px;
   }
 `;
 
@@ -227,12 +256,20 @@ const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  @media (max-width: 767px) {
+    gap: 20px;
+  }
 `;
 
 const ContactItem = styled.div`
   display: flex;
   align-items: flex-start;
   gap: 20px;
+
+  @media (max-width: 767px) {
+    gap: 15px;
+  }
 `;
 
 const ContactIcon = styled.div`
@@ -246,6 +283,12 @@ const ContactIcon = styled.div`
   justify-content: center;
   font-size: 1.2rem;
   flex-shrink: 0;
+
+  @media (max-width: 767px) {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
 `;
 
 const ContactItemTitle = styled.h3`
