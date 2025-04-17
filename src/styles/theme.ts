@@ -2,7 +2,7 @@ export const lightTheme = {
   body: '#eaf4ff',                    // Slightly deeper and cooler background to add depth
   text: '#0a0f3c',                    // Rich navy text for stronger contrast and elegance
   primary: '#4E65FF',                // Electric blue (start of gradient)
-  secondary: '#fffff',              // Bright cyan (end of gradient)
+  secondary: '#ffffff',              // Bright cyan (end of gradient)
   cardBg: '#ffffff',                 // Clean white cards for content contrast
   navBg: 'rgba(234, 244, 255, 0.95)',// Softer match to updated background
   gradient: 'linear-gradient(135deg, #4E65FF 0%, #92EFFD 100%)', // Bold, modern gradient
