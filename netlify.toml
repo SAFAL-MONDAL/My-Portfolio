@@ -1,8 +1,8 @@
+@"
 [build]
   command = "npm run build"
   publish = "dist"
 
 [build.environment]
-  GO_VERSION = "1.19"
-  NODE_VERSION = "16" # or your preferred Node version
-  
+  NODE_VERSION = "18.12.0"
+"@ | Out-File -FilePath netlify.toml -Encoding utf8

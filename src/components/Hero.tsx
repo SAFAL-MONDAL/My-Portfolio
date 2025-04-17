@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import SocialIcons from './SocialIcons';
-import img from '../assets/My photo 1.png'; // Replace with your image path
+import img from '/My photo 1.png'; // Replace with your image path
 const Hero = () => {
   return (
     <HeroSection id="home">

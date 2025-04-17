@@ -41,7 +41,7 @@ const About = () => {
             >
               <TechIcon>
                 <img
-                  src="./src/assets/js.webp"
+                  src="/js.webp"
                   alt="JavaScript"
                 />
               </TechIcon>
@@ -50,7 +50,7 @@ const About = () => {
             {/* Main Image */}
             <ImageWrapper>
               <motion.img
-                src="./src/assets/My photo 2.png"
+                src="/My photo 2.png"
                 alt="Developer working"
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -70,7 +70,7 @@ const About = () => {
             >
               <TechIcon>
                 <img
-                  src="./src/assets/css.jpg"
+                  src="/css.jpg"
                   alt="CSS"
                 />
               </TechIcon>
@@ -87,7 +87,7 @@ const About = () => {
             >
               <TechIcon>
                 <img
-                  src="./src/assets/AWS.png"
+                  src="/AWS.png"
                   alt="AWS"
                 />
               </TechIcon>
@@ -101,7 +101,7 @@ const About = () => {
               viewport={{ once: true }}
             >
               <img
-                src="./src/assets/ME.png"
+                src="/ME.png"
                 alt="Developer with headphones"
               />
             </SecondaryImageWrapper>
