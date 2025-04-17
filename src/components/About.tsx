@@ -83,7 +83,7 @@ const About = () => {
               transition={{ duration: 0.5, delay: 0.6 }}
               viewport={{ once: true }}
               top="40%"
-              right="-40px"
+              right="-25px"
             >
               <TechIcon>
                 <img
@@ -196,6 +196,8 @@ const AboutImageContainer = styled.div`
   
   @media (max-width: 992px) {
     width: 100%;
+    top: 0;
+
   }
 `
 
@@ -251,8 +253,8 @@ const TechIconFloating = styled(motion.div)`
 `
 
 const TechIcon = styled.div`
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 85px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -269,8 +271,9 @@ const TechIcon = styled.div`
   }
   
   @media (max-width: 768px) {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+  
   }
 `
 
