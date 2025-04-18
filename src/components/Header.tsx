@@ -186,7 +186,7 @@ const Header = ({ toggleTheme, currentTheme }: HeaderProps) => {
 
               {/* New Download CV Button */}
               <NavItem>
-                <DownloadButton href="/cv.pdf" download>
+                <DownloadButton href="/SAFAL_CV.pdf" download>
                   Download CV
                 </DownloadButton>
               </NavItem>
