@@ -6,23 +6,23 @@ const projects = [
   {
     title: "Student Mentoring System",
     description: "A university-based mentoring system developed using HTML, CSS, MongoDB, Node.js, Docker, and AWS ECS.",
-    technologies: ["HTML", "CSS", "MongoDB", "Node.js", "Docker", "AWS ECS"],
+    technologies: ["HTML", "CSS", "MongoDB", "Node.js", "Docker", "AWS EC2"],
     githubLink: "https://github.com/SAFAL-MONDAL/Mentoring_Website",
     liveLink: "https://1krojziy3cvz47balzecjq.on.drv.tw/www.mentoring_website.com",
     image: "/mentoring.webp"
   },
   {
-    title: "Text to Speech Converter",
-    description: "A text-to-speech converter application using AWS Polly, React, and Node.js.",
-    technologies: ["AWS Polly", "React", "Node.js"],
-    githubLink: "https://github.com/SAFAL-MONDAL/Text-To-Speech",
-    liveLink: "https://yourwebsite.com/text-to-speech-converter",
-    image: "/texttospeech.png"
+    title: "Chatbot (Bongo ai)",
+    description: "Developed a responsive AI chatbot leveraging HTML, CSS, JavaScript, and integrated with the Gemini API.",
+    technologies: ["HTML", "CSS", "JavaScipt","Gemini API key"],
+    githubLink: "https://github.com/SAFAL-MONDAL/SAFAL-AI",
+    liveLink: "https://safal-ai.vercel.app/",
+    image: "/chatbot.avif"
   },
   {
     title: "University-Based Intern Portal",
     description: "An intern portal for universities developed using MongoDB, Express.js, Node.js, and React.js.",
-    technologies: ["MongoDB", "Express.js", "Node.js", "React.js"],
+    technologies: ["MongoDB", "Express.js", "Node.js", "React.js","Rest API"],
     githubLink: "https://github.com/SAFAL-MONDAL/Internship_Portal",
     liveLink: "https://yourwebsite.com/university-intern-portal",
     image: "/internship.webp"

@@ -18,13 +18,12 @@ const About = () => {
               <Subtitle>I'm a Developer</Subtitle>
               <Title>I Develop Applications That Help People</Title>
               <AboutText>
-                Difquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur epteur sint occaecat cupidatat.
-              </AboutText>
-              <AboutText>
-                Kmon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-                omnis.
-              </AboutText>
+  I specialize in building efficient, scalable web applications using modern technologies and clean architecture, ensuring seamless user experiences and robust functionality.
+</AboutText>
+<AboutText>
+  With a strong focus on performance and maintainability, I develop solutions that align with industry standards, optimized for both client-side and server-side operations.
+</AboutText>
+
               <PrimaryButton href="#portfolio">View Portfolio</PrimaryButton>
             </motion.div>
           </AboutContent>
