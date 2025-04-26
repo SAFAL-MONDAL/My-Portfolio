@@ -157,7 +157,7 @@ const Header = ({ toggleTheme, currentTheme }: HeaderProps) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navItems = ['home', 'about', 'portfolio', 'skills', 'contact'];
+  const navItems = ['home', 'about', 'projects', 'skills', 'contact'];
 
   return (
     <HeaderWrapper $scrolled={scrolled}>

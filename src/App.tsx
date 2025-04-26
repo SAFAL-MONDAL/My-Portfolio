@@ -9,7 +9,7 @@ import { lightTheme, darkTheme } from './styles/theme';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Project from './components/Project';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 
@@ -41,7 +41,7 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Portfolio />
+        <Project />
         <Skills />
         <Contact />
        

@@ -23,7 +23,7 @@ const Hero = () => {
               I create beautiful, functional websites and applications with modern technologies.
             </HeroDescription>
             <ButtonGroup>
-              <PrimaryButton href="#contact">Get a Quote</PrimaryButton>
+              <PrimaryButton href="#contact">Contact Me</PrimaryButton>
               <SecondaryButton href="#about">About Me</SecondaryButton>
             </ButtonGroup>
             <SocialIcons />

@@ -51,9 +51,9 @@ const itemVariants = {
   }
 };
 
-const Portfolio = () => {
+const Project = () => {
   return (
-    <PortfolioSection id="portfolio">
+    <PortfolioSection id="projects">
       <div className="container">
         <motion.div 
           initial={{ opacity: 0, y: 50 }}
@@ -338,4 +338,4 @@ const ProjectLink = styled(motion.a)`
   }
 `;
 
-export default Portfolio;
+export default Project;
