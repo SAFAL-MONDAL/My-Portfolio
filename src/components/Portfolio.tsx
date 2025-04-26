@@ -27,6 +27,7 @@ const projects = [
     liveLink: "https://yourwebsite.com/university-intern-portal",
     image: "/internship.webp"
   }
+  
 ];
 
 const containerVariants = {
@@ -61,7 +62,7 @@ const Portfolio = () => {
           viewport={{ once: true }}
         >
           <SectionSubtitle>My Works</SectionSubtitle>
-          <SectionTitle>Creative <Highlight>Portfolio</Highlight></SectionTitle>
+          <SectionTitle>Creative <Highlight>Projects</Highlight></SectionTitle>
           <SectionText>
             Each project represents unique challenges and innovative solutions
           </SectionText>

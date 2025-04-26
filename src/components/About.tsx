@@ -24,7 +24,7 @@ const About = () => {
   With a strong focus on performance and maintainability, I develop solutions that align with industry standards, optimized for both client-side and server-side operations.
 </AboutText>
 
-              <PrimaryButton href="#portfolio">View Portfolio</PrimaryButton>
+              <PrimaryButton href="#portfolio">View Projects</PrimaryButton>
             </motion.div>
           </AboutContent>
 
