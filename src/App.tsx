@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
-
+import { Routes, Route } from 'react-router-dom';  // <-- notice: no BrowserRouter here
 // Styles
 import { GlobalStyles } from './styles/GlobalStyles';
 import { lightTheme, darkTheme } from './styles/theme';
@@ -12,7 +12,7 @@ import About from './components/About';
 import Project from './components/Project';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-
+// import AdminDashboard from './components/AdminDashboard';
 import Footer from './components/Footer';
 
 interface ThemeType {
@@ -39,12 +39,18 @@ function App() {
       />
       
       <main>
-        <Hero />
-        <About />
-        <Project />
-        <Skills />
-        <Contact />
-       
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Hero />
+              <About />
+              <Project />
+              <Skills />
+              <Contact />
+            </>
+          } />
+         {/* <Route path="/admindashboard" element={<AdminDashboard />} /> */}
+        </Routes>
       </main>
       
       <Footer />
