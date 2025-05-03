@@ -32,7 +32,7 @@ function App() {
   return (
     <ThemeProvider theme={currentTheme}>
       <GlobalStyles />
-      
+      {/* <AdminDashboard /> */}
       <Header 
         toggleTheme={toggleTheme} 
         currentTheme={theme} 
@@ -42,6 +42,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
+            
               <Hero />
               <About />
               <Project />
@@ -49,7 +50,7 @@ function App() {
               <Contact />
             </>
           } />
-         {/* <Route path="/admindashboard" element={<AdminDashboard />} /> */}
+       
         </Routes>
       </main>
       

@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
@@ -108,6 +107,7 @@ const AdminDashboard = () => {
       <LoginForm>
         <h2>Admin Login</h2>
         {error && <p style={{ color: '#FF3333' }}>{error}</p>}
+        }
         <form onSubmit={handleLogin}>
           <input
             type="text"
@@ -243,8 +243,5 @@ const AdminDashboard = () => {
     </AdminContainer>
   );
 };
-
-// Keep all your existing styled components exactly the same
-// (AdminContainer, LoginForm, MessageTable, etc.)
 
 export default AdminDashboard;
