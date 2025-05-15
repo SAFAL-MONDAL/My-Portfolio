@@ -12,7 +12,7 @@ import About from './components/About';
 import Project from './components/Project';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-// import AdminDashboard from './components/AdminDashboard';
+import AdminDashboard from './components/AdminDashboard';
 import Footer from './components/Footer';
 
 interface ThemeType {
@@ -32,7 +32,7 @@ function App() {
   return (
     <ThemeProvider theme={currentTheme}>
       <GlobalStyles />
-      {/* <AdminDashboard /> */}
+    
       <Header 
         toggleTheme={toggleTheme} 
         currentTheme={theme} 
@@ -50,6 +50,9 @@ function App() {
               <Contact />
             </>
           } />
+       
+
+       <Route path="/admin" element={<AdminDashboard />} />
        
         </Routes>
       </main>

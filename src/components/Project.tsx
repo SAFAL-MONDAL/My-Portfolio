@@ -8,7 +8,7 @@ const projects = [
     description: "A university-based mentoring system developed using HTML, CSS, MongoDB, Node.js, Docker, and AWS ECS.",
     technologies: ["HTML", "CSS", "MongoDB", "Node.js", "Docker", "AWS EC2"],
     githubLink: "https://github.com/SAFAL-MONDAL/Mentoring_Website",
-    liveLink: "https://1krojziy3cvz47balzecjq.on.drv.tw/www.mentoring_website.com",
+    liveLink: "https://std-mentoring-edu.netlify.app/",
     image: "/mentoring.webp"
   },
   {

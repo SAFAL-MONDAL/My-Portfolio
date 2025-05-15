@@ -163,7 +163,7 @@ const Header = ({ toggleTheme, currentTheme }: HeaderProps) => {
     <HeaderWrapper $scrolled={scrolled}>
       <div className="container" style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         {/* Left side: Logo */}
-        <Logo href="#">Safal Mondal</Logo>
+        <Logo href="/admin">Safal Mondal</Logo>
 
         {/* Right side: NavToggle + Nav */}
         <div style={{ display: 'flex', alignItems: 'center' }}>
